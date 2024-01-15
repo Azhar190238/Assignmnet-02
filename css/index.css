@@ -1,0 +1,243 @@
+*{
+    font-family: 'Mulish', sans-serif;
+}
+main{
+    margin: 60px  120px;
+}
+
+/* css needed for section-5 */
+.section-part6{
+    text-align: center;
+}
+.why{
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;  
+}
+.section6-des{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 1rem;
+font-weight: 400;
+margin-bottom: 30px;
+
+}
+
+.section6-first{
+    display: flex;
+    gap: 30px;
+}
+.hand{
+    padding: 20px;
+    text-align: left;
+border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.world{
+    padding: 20px;
+    text-align: left;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+.section6-last{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right:  300px;
+    padding: 20px;
+    text-align: left;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+}
+.section6-des{
+    color: #5A5A5D;
+font-size: 1rem;
+font-weight: 400;
+}
+.section6-header{
+    color: #131318;
+font-size: 1.5rem;
+font-weight: 800;
+}
+
+/* CSS needed for section 07 */
+.section-part7{
+    display: flex;
+    justify-content: space-between;
+}
+.left-part07{
+    border-radius: 16px;
+    border: 1px solid #FF5400;  
+    max-width: 450px;
+    max-height: 340px;
+    padding: 38px 20px;
+}
+.text-email{
+    padding: 15px 270px 15px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+}
+.input-button{
+    padding: 15px 183px 15px 188px;
+    margin-top: 15px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+    border: none;
+}
+.newsletter{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-des{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+}
+.right-part07{
+    max-width: 700px;
+}
+.img-description{
+    border-radius: 16px;
+    background: #FF5400;
+    padding: 15px;
+    margin-left: 450px; 
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+    right: 10px; 
+   transform: rotate(-19.628deg);
+}
+.img-description p{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    color: #FFF;
+}
+.save{
+    margin-top: 0px;
+    color: #FFF;
+    font-size: 1.5rem;
+    padding-top: 0px;
+} 
+
+
+
+
+
+/* CSS needed for footer part  */
+.footer1{
+    margin-top: -100px;
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+    padding: 100px 330px;
+}
+.footer-heading{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.travel{
+    color: #FF5400;
+    font-size: 2rem;
+}
+.hero{
+color:  #131318;
+font-size: 2rem;
+}
+.footer-description{
+    color: #5A5A5D;
+   font-size: 1rem;
+   font-weight: 400;
+}
+.footer-icons{
+    padding: 20px;
+}
+.footer-icons img{
+    padding-left: 20px;
+}
+.final-footer{
+    margin-top: 50px;
+    color: #131318;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+
+    .section6-first{
+        flex-direction: column;
+    }
+    .section6-last{
+        margin: 0px;
+        margin-top: 20px;
+    }
+    .section-part7{
+        position: relative;
+        top: 20px;
+        flex-direction: column;
+    }
+    .text-email{
+        padding: 15px 100px 15px 20px;
+    }
+    .input-button{
+        padding: 15px 180px 15px 20px;
+    }
+    .right-part07 img{
+        margin-top: 20px;
+        width: 320px;
+        margin-bottom: -30px;
+    }
+    .img-description{
+        border-radius: 10px;
+        background: #FF5400;
+        margin-left: 50px; 
+        bottom: 90px;
+        right: 0px; 
+        padding: 5px 0px;
+    }
+    .img-description p{
+        font-size: .8rem;
+    }
+    .save{
+        color: #FFF;
+        font-size: 1rem;
+        
+    } 
+    .footer1{
+        padding: 30px 10px;
+        margin: 0px 50px;
+    }
+    .footer-heading{
+    margin: -10px;
+    padding: 0px;
+    
+
+    }
+    .travel{
+        font-size: 1rem;
+    }
+    .hero{
+    font-size: 1rem;
+    }
+    .footer-description{
+       font-size: .8rem;
+
+    }
+    .footer-icons{
+        padding: 0px;
+    }
+    .footer-icons img{
+        padding-left: 20px;
+    }
+    .final-footer{
+        margin-top: 30px;
+        color: #131318;
+        font-size: 0.8rem;
+    }  
+}
