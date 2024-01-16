@@ -49,10 +49,6 @@ font-size: 2rem;
 }
 
 /* Header section styles */
-/* header{
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%,
-    rgba(19, 19, 24, 0.00) 100%);
-} */
 .header {
   
     border-radius: 16px;
@@ -520,7 +516,22 @@ font-size: 2rem;
     }
     
     /* Header section styles */
-
+    .header {
+  
+        border-radius: 16px;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%,
+        rgba(19, 19, 24, 0.00) 100%);
+        background-image: url(../images/Group\ 13\ .png);
+        background-repeat: no-repeat;
+        background-size: 500px 600px;
+        border-radius: 16px;
+    
+    }
+    .box {
+        margin: 10px;
+        margin-top: 0px;
+    
+    }
     
     .drop-down {
         padding: 0px;
@@ -549,6 +560,7 @@ font-size: 2rem;
         color: #FFF;
         font-size: 2rem;
         padding: 10px ;
+        padding-top: 50px;
 
     }
 
@@ -567,7 +579,7 @@ font-size: 2rem;
 .section-1{
     flex-direction: column;
     gap: 0px;
-    margin-top: 30px;
+    margin-top: -100px;
 }
 .tours-head {
     font-size: 1.5rem;
