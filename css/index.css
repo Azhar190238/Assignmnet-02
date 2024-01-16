@@ -24,6 +24,9 @@ nav {
 color:  #131318;
 font-size: 2rem;
 }
+.hidden-img{
+    display: none;
+}
 
 .nav-items {
     display: flex;
@@ -505,15 +508,19 @@ font-size: 2rem;
         display: flex;
         gap: 10px;
         padding: 0px;
+        margin-left: -170px;
+    }
+    .hidden-img{
+        display:block;
+        position: relative;
+        left: 145px;
+        bottom:30px ;
     }
     .nav-items {
-        font-size: 1rem;
-        padding:0px;
+        display: none;
 
     }
-    .nav-items li a {
-        padding: 0.2rem;
-    }
+   
     
     /* Header section styles */
     .header {
@@ -700,7 +707,7 @@ font-size: 2rem;
         background: #FF5400;
         margin-left: 140px; 
         bottom: 67px;
-        right: 0px; 
+        right: 10px; 
         padding: 3px 0px;
 
     }
