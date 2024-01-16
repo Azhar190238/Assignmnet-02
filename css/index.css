@@ -416,6 +416,50 @@ font-weight: 800;
     padding-top: 0px;
 } 
 
+/* section8 start */
+.section-8{
+    background: rgba(0, 88, 83, 0.05);  
+    margin-bottom: 150px;
+    margin-top: -60px;
+    border-radius: 16px;
+}
+.section8-top{
+    padding: 50px 350px 50px 350px;
+}
+.all-instruction{
+    display: flex;
+    justify-content: space-between;
+    padding:0px 170px 0px 150px;
+}
+.heading-section8{
+color: #000;
+text-align: center;
+font-size: 2rem;
+font-weight: 700
+}
+.description-section8{
+color: #000;
+text-align: center;
+font-size: 1rem;
+font-weight: 400;
+}
+.instruction{
+    padding: 20px 50px 20px 50px;
+    border-radius: 15px;
+    background: #FFF;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.heading8{
+    color: #000;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.ins-des{
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 
@@ -485,9 +529,7 @@ font-size: 2rem;
     #w-w1{
         padding: -10px;
     }
-    /* #where{
-        padding: 5px 80px 10px 10px; */
-
+   
     
     #find {
         background-color: #FF5400;
@@ -614,7 +656,9 @@ font-size: 2rem;
     font-weight: 800;
 }
 /* section 2 finished */
-    /* section6 and end part */
+
+
+    /* section6 start part */
 
     .section6-first{
         flex-direction: column;
@@ -636,7 +680,7 @@ font-size: 2rem;
     }
     .right-part07 img{
         margin-top: 20px;
-        width: 320px;
+        width: 310px;
         margin-bottom: -30px;
     }
     .img-description{
@@ -661,6 +705,31 @@ font-size: 2rem;
         font-size: 1rem;
         
     } 
+
+    /* section 6&7 start */
+ 
+    .section8-top{
+        margin-top: 80px;
+         padding: 50px 15px 50px 15px;  
+    }
+
+    .all-instruction{
+        flex-direction: column;
+        padding:0px 0px 0px 0px;
+        margin: 30px;
+        margin-bottom: -100px;
+    }
+    .heading-section8{
+    font-size: 1.5rem;
+    }
+    .heading8{
+        font-size: 1.5rem;
+    }
+    .ins-des{
+        font-size: 1rem;
+    }
+
+    /* footer start */
     .footer1{
         padding: 30px 10px;
         margin: 0px 50px;
